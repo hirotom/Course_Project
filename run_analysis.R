@@ -14,7 +14,7 @@ X.data.train<-read.table("X_train.txt")  #May take a minute
 names(X.data.train)<-features.table$V2
 #Read the Y training table
 Y.data.train<-read.table("Y_train.txt")
-names(Y.data.train)<-names(Y.data.train)<-"labels"
+names(Y.data.train)<-"labels"
 
 training.subjects<-read.table("subject_train.txt")
 names(training.subjects)<-"subjects"
